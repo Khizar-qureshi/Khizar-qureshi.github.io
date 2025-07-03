@@ -25,7 +25,7 @@
 
     <body>
         <!-- Header Start -->
-        <h3>This page is under construction</h3>
+     <!---<h3>This page is under construction</h3> -->
         <div class="top-header" id="top-header">
             <div class="container text-center">
                 <div class="row">
@@ -37,7 +37,7 @@
                         <h1>Khizar Qureshi </h1>
                     </div>
                     <div class="col-md-12">
-                        <p>Student, Software Engineer, Programmer, Computer Science Major, Photographer</p>
+                        <p>Software Engineer, Carleton College Alumni, Computer Science Graduate</p>
                         <h2></h2>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                         <li><a href="#top-header">Home</a></li>
                         <li><a href="#about">About me</a></li>
                         <li><a href="#experience">Resume</a></li>
-                        <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+                        <li><a href="#portfolio">Portfolio</a></li> 
                         <!-- 
                         <li class="menu-has-children"><a href="#">Drop Down</a>
                             <ul>
@@ -99,12 +99,11 @@
                             <h2>About Me</h2>
                         </header>
                         <h3><strong>Name:</strong> Khizar Qureshi</h3>
-                        <h4><strong>Profession:</strong> Student & Software Engineer</h4>
-                        <p> NOTE: This Page is under construction </p>
+                        <h4><strong>Profession:</strong>Software Engineer</h4>
                         <p>
-                            I am a current Senior Computer Science major at Carleton College expected to graduate June 2025. I currently am serving as a Course Staff for the Computer Science Department at Carleton College, where I assist students in their programming assignments and grade for Professors in the department. 
+                            I have recently graduated from Carleton College with a Bachelors in Computer Science. I will soon be working as a full-time Software Engineer at Huntington Ingalls Industries.  
                         <p>
-                            I have also had the privelage of interning at many different organizations and companies, such as HII, SciQuel, and the National Institue of Health. Please contact me to disucss about projects or any employment opporutnities!
+                            I have previously served as a Course Staff for the Computer Science Department at Carleton College, where I assisted students in their programming assignments and graded for Professors in the department. I have also had the privilege of interning at many different organizations and companies, such as HII, SciQuel, and the National Institute of Health. Please get in touch with me to discuss projects or any employment opportunities!
                         </p>
                     </div>
                 </div>
@@ -176,7 +175,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="exp-column">
-                            <p class="exp-date">March-2023 <span>to</span> Present</p>
+                            <p class="exp-date">March-2023 <span>to</span> June-2025</p>
                             <h4 class="exp-company">Carleton College, Northfield MN</h4>
                             <h4 class="exp-designation">Computer Science Course Staff</h4>
                             <p class="exp-detail">
@@ -325,13 +324,13 @@
         <!-- Counter End -->
 
         <!-- Portfolio Start -->
-         <!-- 
+          
         <div class="portfolio" id="portfolio">
             <div class="container">
                 <header class="section-header">
                     <h3 class="section-title">My Portfolio</h3>
                     <p>
-                        Morbi lacinia malesuada risus vel pellentesque. Cras malesuada, felis nec dignissim lobortis, nisl nulla venenatis arcu, et commodo lacus nulla sit amet libero.
+                      Below are several relevant projects I have completed for personal or academic purposes
                     </p>
                 </header>
 
@@ -339,9 +338,9 @@
                     <div class="col-lg-12">
                         <ul id="portfolio-flters">
                             <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".web-des">HCI Project</li>
-                            <li data-filter=".web-dev">Web Development</li>
-                            <li data-filter=".app-dev">App Development</li>
+                            <li data-filter=".web-des">Undergraduate Thesis</li>
+                            <li data-filter=".web-dev">Software Development</li>
+                            <li data-filter=".app-dev">Machine Learning</li>
                         </ul>
                     </div>
                 </div>
@@ -350,21 +349,9 @@
                     <div class="col-lg-4 col-md-6 portfolio-item web-des">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio-1.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio-1.jpg" data-lightbox="portfolio" data-title="HCI Project" class="link-preview" title="Preview"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                <h4 class="portfolio-title">This page is under construction for the HCI Project <span>HCI Project</span></h4>
-                            </figure>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item web-des">
-                        <div class="portfolio-wrap">
-                            <figure>
-                                <img src="img/portfolio-2.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Maecenas a tempus tortor" title="Preview"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                <h4 class="portfolio-title">Maecenas a tempus tortor <span>Web Design</span></h4>
+                                <img src="img/comps.jpg" class="img-fluid" alt="">
+                                <a href="javascript:void(0);" data-title="Comps Project" class="link-preview" title="Preview" onclick="event.preventDefault(); openModal('comps-modal')"><i class="fa fa-eye"></i></a>
+                                <h4 class="portfolio-title">Chaos Monkeys: Software Engineering at Scale<span>Undergraduate Thesis</span></h4>
                             </figure>
                         </div>
                     </div>
@@ -372,10 +359,21 @@
                     <div class="col-lg-4 col-md-6 portfolio-item web-dev">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio-3.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Aliquam id sapien lorem" title="Preview"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                <h4 class="portfolio-title">Aliquam id sapien lorem <span>Web Development</span></h4>
+                                <img src="img/pl2.webp" class="img-fluid" alt="">
+                                <a href="javascript:void(0);" data-title="PL Project" class="link-preview" title="Preview" onclick="event.preventDefault(); openModal('pl-modal')"><i class="fa fa-eye"></i></a>
+
+                                <h4 class="portfolio-title">Scheme Interpreter<span>Compiler & Language Design</span></h4>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item app-dev">
+                        <div class="portfolio-wrap">
+                            <figure>
+                                <img src="img/ml2.png" class="img-fluid" alt="">
+                                <a href="javascript:void(0);" data-title="ML Project" class="link-preview" title="Preview" onclick="event.preventDefault(); openModal('ml-modal')"><i class="fa fa-eye"></i></a>
+
+                                <h4 class="portfolio-title">Movie Recommender<span>Machine Learning Model</span></h4>
                             </figure>
                         </div>
                     </div>
@@ -383,40 +381,109 @@
                     <div class="col-lg-4 col-md-6 portfolio-item web-dev">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio-4.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio-4.jpg" class="link-preview" data-lightbox="portfolio" data-title="Quisque lectus mauris" title="Preview"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                <h4 class="portfolio-title">Quisque lectus mauris <span>Web Development</span></h4>
+                                <img src="img/whale2.jpg" class="img-fluid" alt="">
+                                <a href="javascript:void(0);" data-title="wordle Project" class="link-preview" title="Preview" onclick="event.preventDefault(); openModal('wordle-modal')"><i class="fa fa-eye"></i></a>
+                                <h4 class="portfolio-title">Clone Wordle<span>Full-Stack Website Application</span></h4>
                             </figure>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item app-dev">
+                    <div class="col-lg-4 col-md-6 portfolio-item web-dev">
                         <div class="portfolio-wrap">
                             <figure>
-                                <img src="img/portfolio-5.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio-5.jpg" class="link-preview" data-lightbox="portfolio" data-title="Interdum et malesuada" title="Preview"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                <h4 class="portfolio-title">Interdum et malesuada <span>Apps Development</span></h4>
-                            </figure>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item app-dev">
-                        <div class="portfolio-wrap">
-                            <figure>
-                                <img src="img/portfolio-6.jpg" class="img-fluid" alt="">
-                                <a href="img/portfolio-6.jpg" class="link-preview" data-lightbox="portfolio" data-title="Pellentesque lacus" title="Preview"><i class="fa fa-eye"></i></a>
-                                <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                <h4 class="portfolio-title">Pellentesque lacus <span>Apps Development</span></h4>
+                                <img src="img/nyc.jpg" class="img-fluid" alt="">
+                                <a href="javascript:void(0);" data-title="HCI Project" class="link-preview" title="Preview" onclick="event.preventDefault(); openModal('nyc-modal')"><i class="fa fa-eye"></i></a>
+                                <h4 class="portfolio-title">New York City Language Communities<span>Full-Stack Website Application</span></h4>
                             </figure>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        -->
+
+        
         <!-- Portfolio End -->
+
+        <div id="comps-modal" class="custom-modal">
+            <div class="custom-modal-content">
+            <span class="custom-modal-close" onclick="closeModal('comps-modal')">&times;</span>
+            <h2>Chaos Monkeys: Software Engineering at Scale</h2>
+            <p>This project was my undergraduate thesis, focusing on reearching & applying principles of chaos engeering on a web cloud server.</p>
+            <p>
+                As Netflix puts it, imagine “unleashing a wild monkey with a weapon in your data center (or cloud region) to randomly shoot down instances and chew through cables”. 
+                If they could handle such random anomalies during the workday without customer impact, they could be much more confident that their procedures would work.
+            </p>
+            <p>
+                A vast array of challenges arise when attempting to build a software service at scale. Users may access the service from all over the world and should see small latencies no matter their location. Data centers or web endpoints may go down unexpectedly, but traffic must flow. 
+ High traffic from individual users should not impact other users. And when something goes wrong (and it will), monitoring and alerting will be in place to be able to detect the problem and recover as quickly as possible.
+            </p>
+            <p>
+                As part of my thesis, my team and I focused on 5 practices of chaos engineering: External Monitoring via status pages, Rate Limiting, Fault Injection, Database Sharding, and Load Testing.
+            </p>
+            <p>This project was completed during Fall 2024 - Spring 2025 for my Undergraduate Thesis at Carleton College.</p>
+            <p>Below is a link to my group's project website, that showcases our project in further depth.</p>
+            <a href="https://www.cs.carleton.edu/cs_comps/2425/tamert/Monkeying_Around/index.html" target="_blank">Project Website</a>
+            </div>
+        </div>
+
+        <div id="pl-modal" class="custom-modal">
+            <div class="custom-modal-content">
+            <span class="custom-modal-close" onclick="closeModal('pl-modal')">&times;</span>
+            <h2>Scheme Interpreter</h2>
+            <p>I built a fully functional Scheme interpreter in C that processes and evaluates Scheme code through three main stages: tokenization, parsing, and evaluation. 
+                The interpreter begins by tokenizing the input string, breaking it into a sequence of typed tokens such as integers, symbols, and parentheses. These tokens are then parsed into a tree that represents the grammatical structure of the code based on Scheme’s syntax. 
+                Finally, the tree is evaluated according to the rules of Scheme, supporting constructs like variables, conditionals, recursion, lambda expressions, and list operations. 
+                To manage memory, I implemented a basic memory allocation tracking system that records each allocation made during execution. At the end of the program's run, the interpreter automatically frees all allocated memory in a single cleanup step. 
+            </p>
+            <p>This project was completed during in the Fall of 2024 for CS 251 - Programming Langauges Design & Implementation at Carleton College.</p>
+            <p>If you are interested in seeing any source code, please reach out to me.</p>
+            </div>
+        </div>
+
+        <div id="ml-modal" class="custom-modal">
+            <div class="custom-modal-content">
+            <span class="custom-modal-close" onclick="closeModal('ml-modal')">&times;</span>
+            <h2>Movie Recommender</h2>
+            <p>Developed a movie recommendation system using neural networks built with Keras and Scikit-learn to predict user preferences based on demographic data and movie genres. 
+                The project included both a binary classification model to predict whether a user would like a movie and a multiclass model to estimate exact ratings. Despite using a limited subset of data (~2,000 rows), the binary model outperformed baseline benchmarks after hyperparameter tuning, while the multiclass model showed limited improvement. 
+                Performance was evaluated using cross-validation, and high variance was attributed to data constraints.
+            </p>
+            <p>This project was completed during in the Winter of 2024 for CS 320 - Machine Learning at Carleton College.</p>
+            <p>If you are interested in seeing the source code for this project, please reach out to me.</p>
+            </div>
+        </div>
+
+        <div id="wordle-modal" class="custom-modal">
+            <div class="custom-modal-content">
+            <span class="custom-modal-close" onclick="closeModal('wordle-modal')">&times;</span>
+            <h2>Clone Wordle</h2>
+            <p>
+                I developed an interactive website that replicates the New York Times Wordle game using HTML, CSS, and JavaScript to create a responsive and engaging front-end experience. 
+                The application includes full game logic, dynamic UI updates, and visual feedback for user guesses. I implemented a Flask server in Python to manage game state and user statistics, which were stored and retrieved using MongoDB to support flexible and scalable data handling. 
+                Docker was used to containerize the application, making it easy to deploy and test the full stack in consistent environments.
+            </p>
+            <p>
+                This project was completed in the Fall of 2023 for my CS:347 - Advanced Software Design at Carleton College.
+            </p>
+            <a href="https://github.com/Khizar-qureshi/WordleClone" target="_blank">Project Website</a>
+            </div>
+        </div>
+
+        <div id="nyc-modal" class="custom-modal">
+            <div class="custom-modal-content">
+            <span class="custom-modal-close" onclick="closeModal('nyc-modal')">&times;</span>
+            <h2>Language Communities in New York City</h2>
+            <p>I developed an interactive website that allows users to explore over 1,200 cultural communities across New York City, using HTML, CSS, JavaScript, and Bootstrap to create a responsive and user-friendly interface. 
+                The front end allows users to search by language, neighborhood, language group, country, and more, displaying a dynamic table of relevant language communities based on their selections. 
+                On the back end, I implemented a Flask server in Python to handle client requests and connect to a PostgreSQL database, where community data is stored and queried using SQL. Bootstrap was used to streamline the layout and styling process, 
+                while PostgreSQL enabled efficient storage and retrieval of large datasets with complex relationships between communities and locations.
+            </p>
+            <p>
+                This project was completed in Fall 2020 for CS:257 - Software Design at Carleton College. 
+            </p>
+            <a href="https://github.com/Khizar-qureshi/cs257/tree/main/webapp" target="_blank">Project Website</a>
+            </div>
+        </div>
         
         <!-- Testimonials Start -->
          <!-- 
@@ -539,6 +606,27 @@
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
         <script src="lib/isotope/isotope.pkgd.min.js"></script>
         <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <script>
+        function openModal(id) {
+            document.getElementById(id).style.display = "block";
+        }
+
+        function closeModal(id) {
+            document.getElementById(id).style.display = "none";
+        }
+
+        // Optional: Close modal when clicking outside content
+        window.onclick = function(event) {
+            const modals = document.getElementsByClassName("custom-modal");
+            for (let modal of modals) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        }
+        </script>
+
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
